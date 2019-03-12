@@ -4,7 +4,7 @@ office-to-pdf
 ## Prerequests
 Make sure you have installed latest version of libreoffice:
 ```bash
-sudo apt install libreoffice-base -y
+sudo apt-get install libreoffice-base -y
 sudo add-apt-repository ppa:libreoffice/ppa -y
 sudo apt-get update
 sudo apt-get install libreoffice -y

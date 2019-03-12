@@ -1,0 +1,25 @@
+{
+  "name": "office-to-pdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "temporary": "^0.0.8",
+    "tmp": "^0.0.31"
+  },
+  "description": "Converts office documents (buffer) like .doc .docx .ppt .pptx to pdf",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arman Yeghiazaryan",
+  "keywords": [
+    "pdf",
+    "word",
+    "doc",
+    "docx",
+    "ppt",
+    "pptx",
+    "office",
+    "libreoffice"
+  ],
+  "license": "ISC"
+}

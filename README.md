@@ -30,5 +30,5 @@ toPdf(wordBuffer, 10)
      console.log(err)
   });
 ```
-Here `wordBuffer` is buffer of **test.docx** file, and **10** is timeout for conversion **in seconds**. If script didn't have converted file within 10s, it will throw an error.
+Here `wordBuffer` is buffer of **test.docx** file, and `10` is timeout for conversion **in seconds**. If script didn't have converted file within 10s, it will throw an error.
 Default value for timeout is 60s.

@@ -10,13 +10,13 @@ sudo apt-get update
 sudo apt-get install libreoffice -y
 ```
 
-To check LibreOffice's version:
+### To check LibreOffice's version:
 ```bash
 soffice --version
 ```
 It will be good if you have installed 6.1.x version, 5.x has failed several times.
 
-Example:
+### Example:
 ```javascript
 const toPdf = require("office-to-pdf");
 const fs = require("fs");
@@ -30,5 +30,5 @@ toPdf(wordBuffer, 10)
      console.log(err)
   });
 ```
-Here `wordBuffer` is buffer of **test.docx** file, and 10 is timeout for conversion **in seconds**. If script didn't have converted file within 10s, it will throw an error.
+Here `wordBuffer` is buffer of **test.docx** file, and **10** is timeout for conversion **in seconds**. If script didn't have converted file within 10s, it will throw an error.
 Default value for timeout is 60s.

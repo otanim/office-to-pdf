@@ -4,7 +4,7 @@
   "main": "index.js",
   "dependencies": {
     "temporary": "^0.0.8",
-    "tmp": "^0.0.31"
+    "tmp": "^0.2.4"
   },
   "description": "Converts office documents (buffer) like .doc .docx .ppt .pptx to pdf",
   "scripts": {
